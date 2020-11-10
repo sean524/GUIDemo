@@ -17,6 +17,8 @@ import javafx.scene.image.ImageView;
 import javafx.stage.FileChooser;
 import javafx.stage.Stage;
 
+
+
 public class PersonViewController implements Initializable {
     
     private Person selectedPerson;
@@ -51,14 +53,16 @@ public class PersonViewController implements Initializable {
         this.filePath = fileChooser.showOpenDialog(stage);
         
         //Try to update the image by loading the new image
-        /*try{
-            BufferedImage bufferedImage = ImageIO.read(filePath);
-            Image image = SwingFXUtils.toFXImage(bufferedImage, null);
+        try{
+            //BufferedImage bufferedImage = ImageIO.read(filePath);
+            //Image image = SwingFXUtils.toFXImage(bufferedImage, null);
+            //selectedPerson.setImage(image);
+            Image image = new Image(filePath.toURI().toURL().toString());
             selectedPerson.setImage(image);
             photo.setImage(selectedPerson.getImage());
         } catch (IOException e){
             System.err.println(e.getMessage());
-        }*/
+        }
         
     }
     

@@ -15,7 +15,11 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" stylesheets="@../../../../java/com/mycompany/scenebuilderpractice/gray_theme.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.scenebuilderpractice.FXMLDocumentController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" 
+            minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" 
+            stylesheets="@gray_theme.css" xmlns="http://javafx.com/javafx/11.0.1" 
+            xmlns:fx="http://javafx.com/fxml/1" 
+            fx:controller="com.mycompany.scenebuilderpractice.FXMLDocumentController">
    <children>
       <HBox prefHeight="342.0" prefWidth="800.0">
          <children>
